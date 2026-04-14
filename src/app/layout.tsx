@@ -8,7 +8,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Prashant Annigeri | Principal Technical Writer & Documentation Architect",
+  title: "Prashant Annigeri | Principal Technical Writer | Documentation Architect",
   description: "Portfolio of Prashant Annigeri, a Principal Technical Writer and Documentation Architect with 14+ years of experience creating product, API, and developer documentation.",
   keywords: ["Principal Technical Writer", "Documentation Architect", "Information Developer", "API Technical Writer", "DITA Technical Writer"],
   authors: [{ name: "Prashant Annigeri" }],

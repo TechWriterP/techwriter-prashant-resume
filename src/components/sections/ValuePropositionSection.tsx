@@ -1,12 +1,12 @@
 import { CheckCircle2 } from "lucide-react";
 
 const VALUE_PROPS = [
-  "Documentation strategy & capacity planning",
+  "Documentation strategy and capacity planning",
   "Enterprise product documentation leadership",
-  "API & technical developer documentation",
-  "Structured authoring & DITA expertise",
-  "Docs-as-code & modern publishing workflows",
-  "Cross-functional collaboration & Agile execution"
+  "API and technical developer documentation",
+  "Structured authoring and DITA expertise",
+  "Docs-as-code and modern publishing workflows",
+  "Cross-functional collaboration and Agile execution"
 ];
 
 export function ValuePropositionSection() {
@@ -17,10 +17,10 @@ export function ValuePropositionSection() {
           <h2 className="text-3xl md:text-5xl font-bold tracking-tight mb-6">Why Teams Hire Me</h2>
           <div className="w-20 h-1 bg-blue-500 mx-auto rounded-full opacity-80"></div>
         </div>
-        
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {VALUE_PROPS.map((prop, index) => (
-            <div 
+            <div
               key={index}
               className="flex items-start gap-4 bg-slate-800/50 p-6 rounded-2xl border border-slate-700/50"
             >

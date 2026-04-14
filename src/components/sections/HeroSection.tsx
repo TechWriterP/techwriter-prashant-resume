@@ -6,25 +6,25 @@ export function HeroSection() {
     <section id="home" className="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden">
       {/* Background decoration */}
       <div className="absolute inset-0 -z-10 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-blue-100/40 via-slate-50 to-slate-50"></div>
-      
+
       <div className="max-w-5xl mx-auto px-6 sm:px-8">
         <div className="flex flex-col items-start max-w-3xl">
           <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-blue-50 border border-blue-100 text-blue-700 text-sm font-medium mb-8">
             <span className="flex h-2 w-2 rounded-full bg-blue-600"></span>
-            Principal Technical Writer & Documentation Architect
+            Principal Technical Writer and Documentation Architect
           </div>
-          
+
           <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold tracking-tight text-slate-900 mb-6 leading-[1.1]">
-            Clear documentation for <br/>
+            Clear documentation for <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-sky-500">
               complex systems.
             </span>
           </h1>
-          
+
           <p className="text-lg sm:text-xl text-slate-600 mb-10 leading-relaxed font-light">
-            I am <strong className="font-semibold text-slate-900">Prashant Annigeri</strong>, a documentation leader bridging the gap between engineering and users. With over 14 years of experience, I architect and build enterprise product guides, rich API documentation, and docs-as-code ecosystems.
+            I am <strong className="font-semibold text-slate-900">Prashant Annigeri</strong>, a documentation leader bridging the gap between engineering and users. With over 16 years of experience, I architect and build enterprise product guides, rich API documentation, and docs-as-code ecosystems.
           </p>
-          
+
           <div className="flex flex-wrap gap-4 w-full sm:w-auto">
             <a href="#experience">
               <Button size="lg" className="w-full sm:w-auto gap-2">

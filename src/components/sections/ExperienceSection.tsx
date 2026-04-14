@@ -5,7 +5,7 @@ const EXPERIENCES = [
     company: "Hitachi Vantara",
     role: "Principal Technical Writer – Pentaho Data Catalog",
     period: "Oct 2022 – Present",
-    domain: "Data Management & Analytics",
+    domain: "Data Management and Analytics",
     achievements: [
       "Lead strategic documentation planning and delivery for the enterprise Pentaho Data Catalog.",
       "Own and execute the comprehensive release-aligned documentation lifecycle.",
@@ -31,7 +31,7 @@ const EXPERIENCES = [
     company: "L&T Technology Services",
     role: "Senior System Analyst / Documentation Architect / Off-shore Lead",
     period: "Jun 2011 – Oct 2021",
-    domain: "Life Sciences, Industrial, & Wind Energy",
+    domain: "Life Sciences, Industrial, and Wind Energy",
     achievements: [
       "Directed a $0.36M migration engagement for Johnson & Johnson, creating API references, SOPs, and developer guides.",
       "Managed an end-to-end documentation lifecycle and trained a team of 5 writers for Newport Corp OMS deployments.",
@@ -41,7 +41,7 @@ const EXPERIENCES = [
   },
   {
     company: "Cades Studec India Technologies",
-    role: "Technical Writer & Illustrator",
+    role: "Technical Writer and Illustrator",
     period: "Jan 2010 – Mar 2011",
     domain: "Aerospace Engineering",
     achievements: [
@@ -56,17 +56,17 @@ export function ExperienceSection() {
   return (
     <section id="experience" className="py-24 bg-slate-50">
       <div className="max-w-5xl mx-auto px-6 sm:px-8">
-        <SectionHeading 
-          title="Professional Experience" 
-          subtitle="Over 14 years of driving documentation excellence across technology enterprises."
+        <SectionHeading
+          title="Professional Experience"
+          subtitle="Over 16 years of driving documentation excellence across technology enterprises."
         />
-        
+
         <div className="space-y-12 max-w-4xl">
           {EXPERIENCES.map((job) => (
             <div key={job.company} className="relative pl-8 md:pl-0">
               {/* Timeline line for mobile / desktop layout */}
               <div className="hidden md:block absolute left-[220px] top-2 bottom-0 w-px bg-slate-200"></div>
-              
+
               <div className="flex flex-col md:flex-row gap-4 md:gap-12">
                 {/* Timeline metadata */}
                 <div className="md:w-[200px] shrink-0 pt-1">
@@ -76,14 +76,14 @@ export function ExperienceSection() {
                     {job.domain}
                   </div>
                 </div>
-                
+
                 {/* Timeline node */}
                 <div className="hidden md:flex absolute left-[216px] top-2.5 h-2 w-2 rounded-full bg-blue-600 ring-4 ring-slate-50"></div>
-                
+
                 {/* Content */}
                 <div className="flex-1 bg-white p-6 rounded-xl border border-slate-100 shadow-sm relative">
                   <div className="absolute top-6 -left-3 w-3 h-3 bg-white border-t border-l border-slate-100 rotate-[-45deg] hidden md:block"></div>
-                  
+
                   <h3 className="text-xl font-bold text-slate-900 mb-4">{job.role}</h3>
                   <ul className="space-y-3">
                     {job.achievements.map((item, i) => (

@@ -2,12 +2,12 @@ import { SectionHeading } from "../ui/SectionHeading";
 
 const EXPERTISE_CATEGORIES = [
   {
-    title: "Strategy & Architecture",
+    title: "Strategy and Architecture",
     items: ["Documentation Strategy", "Information Architecture", "Agile Collaboration", "Scrum", "Stakeholder Management"]
   },
   {
     title: "Content Types",
-    items: ["Product Documentation", "API Documentation", "Developer Publications", "Release Notes", "Admin & User Guides"]
+    items: ["Product Documentation", "API Documentation", "Developer Publications", "Release Notes", "Admin and User Guides"]
   },
   {
     title: "Ecosystems",
@@ -20,7 +20,7 @@ export function ExpertiseSection() {
     <section id="expertise" className="py-24 bg-slate-50">
       <div className="max-w-5xl mx-auto px-6 sm:px-8">
         <SectionHeading title="Core Expertise" />
-        
+
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {EXPERTISE_CATEGORIES.map((category) => (
             <div key={category.title} className="bg-white rounded-2xl p-8 border border-slate-200 shadow-sm">

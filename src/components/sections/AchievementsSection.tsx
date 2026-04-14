@@ -17,7 +17,7 @@ const ACHIEVEMENTS = [
   {
     icon: <Trophy className="w-8 h-8 text-blue-600" />,
     metric: "Top Performer",
-    label: "Awards & Recognition",
+    label: "Awards and Recognition",
     description: "Multi-time recipient of 'Star of the Month' and 'Employee of the Year' (2018–19)."
   },
   {
@@ -33,11 +33,11 @@ export function AchievementsSection() {
     <section className="py-24 bg-white">
       <div className="max-w-5xl mx-auto px-6 sm:px-8">
         <SectionHeading title="Selected Achievements" />
-        
+
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {ACHIEVEMENTS.map((item, index) => (
-            <div 
-              key={index} 
+            <div
+              key={index}
               className="p-6 bg-slate-50 rounded-2xl border border-slate-100 flex flex-col items-start hover:shadow-md transition-shadow"
             >
               <div className="p-3 bg-white rounded-xl shadow-sm mb-6 inline-flex">
