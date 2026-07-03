@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Technical Writer Resume Website
 
-## Getting Started
+A Next.js resume website for presenting my background as a Principal Technical Writer, Principal Information Developer, and Documentation Architect.
 
-First, run the development server:
+## Purpose
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This project supports my professional portfolio and highlights my experience in enterprise product documentation, developer documentation, API documentation, DITA, docs-as-code, and documentation strategy.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Audience
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Recruiters and hiring managers
+- Documentation leaders
+- Product and engineering teams reviewing technical writing experience
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## What This Demonstrates
 
-## Learn More
+- Professional profile presentation
+- Frontend-based resume and portfolio structure
+- Clear organization of technical writing experience
+- Use of modern web tooling for a personal documentation portfolio
 
-To learn more about Next.js, take a look at the following resources:
+## Tools Used
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Next.js
+- TypeScript
+- Git and GitHub
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## What to Review
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Review the site structure and content approach as a portfolio example for technical writing, documentation architecture, and career presentation.
